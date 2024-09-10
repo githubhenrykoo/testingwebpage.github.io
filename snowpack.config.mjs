@@ -28,6 +28,7 @@ export default {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    baseUrl: '/<repo-name>',  // Add this line
+    out: 'build',  // Ensure the output folder is set to 'build'
   },
 };
